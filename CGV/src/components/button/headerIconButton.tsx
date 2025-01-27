@@ -27,9 +27,11 @@ export default function IconButtons({ iconName, label } : IconButtonProps) {
     }
 
     return (
-        <IconButton aria-label={label}>
-            {renderIcon()}
+        <li className="header-btn">
+            <IconButton aria-label={label}>
+                {renderIcon()}
+            </IconButton>
             {label && <span>{label}</span>}
-        </IconButton>
+        </li>
     );
 }
