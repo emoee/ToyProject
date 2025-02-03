@@ -1,0 +1,76 @@
+.nav-overMenu {
+    display: none;
+}
+
+.nav:hover .nav-overMenu {
+    display: block;
+}
+
+.navbar {
+    position: relative;
+    width: 980px;
+    margin: 0 auto;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    padding-left: 15px;
+    padding-right: 30px;
+}
+
+.nav {
+    display: inline-flex;
+    list-style-type: none;
+    text-align: left;
+    margin: 0;
+}
+.nav > li {
+    width: 162px;
+}
+
+.nav > li > a > h3 {
+    margin: 0;
+}
+
+.search-section > div > input {
+    color: #313131;
+}
+
+.search-section > svg {
+    display: block;
+    position: absolute;
+    right: 9px;
+    top: -1px;
+    width: 26px;
+    height: 26px;
+    font-size: 0;
+    line-height: 0;
+    color: #313131;
+}
+
+.search-section {
+    display: inline-flex;
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 0 38px 0 10px;
+}
+
+.search-section:before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 2px;
+    width: 1px;
+    height: 20px;
+    background-color: #cacaca;
+}
+
+.search-section:after {
+    content: '';
+    position: absolute;
+    right: 0;
+    top: 2px;
+    width: 1px;
+    height: 20px;
+    background-color: #cacaca;
+}

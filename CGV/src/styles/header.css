@@ -1,11 +1,13 @@
 .header {
+    width: 980px;
+    margin: 0 auto;
     display: flex;
     justify-content: space-between;
     text-align: center;
     align-items: center;
     padding-top: 15px;
     padding-left: 30px;
-    padding-right: 30px;
+    /* padding-right: 30px; */
     padding-bottom: 12px;
 }
 
@@ -35,14 +37,9 @@
     height: 34px;
 }
 
-
 .header-logo {
     width: auto;
     height: 100%;
-}
-
-.header-logo > img {
-    width: ;
 }
 
 .logo-section {
@@ -54,6 +51,6 @@
 }
 
 .logo-section > span {
-    text-align:left;
+    text-align: left;
     letter-spacing: 2px;
 }
