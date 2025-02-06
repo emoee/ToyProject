@@ -4,6 +4,28 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     min-width: 1040px;
     width: 100%;
+    margin : 0
+}
+
+.container {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.cgv {
+    width: 100%;
+}
+
+.contents {
+    width: 980px;
+    margin: 0 auto;
+    height: 100%;
+}
+
+.video-content {
+    position: relative;
+    height: 498px;
+    background-color: #000;
 }
 
 .header-content {
@@ -15,8 +37,9 @@ body {
 .nav-content {
     width: 100%;
     position: absolute;
-    left: 0;
-    top: 120px;
+    top: 113px;
+    background-color: white;
+    min-height: 35px;
 }
 
 .nav-content::after {
@@ -28,6 +51,17 @@ body {
     width: 100%;
     height: 2px;
     background-color: #fb4357;
+}
+
+.nav-content::before {
+    content: '';
+    display: block;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 1px;
+    background-color: #a58e8e;
 }
 
 a {

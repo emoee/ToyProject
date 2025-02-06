@@ -17,7 +17,7 @@ export default function NavOverMenu({ title, menus, menusEng }: NavOverMenuProps
     return (
         <div className="nav-overMenu">
             {menuList.length > 0 && (
-                <ul>
+                <ul className="nav-overMenu-ul">
                     <li>{title}</li>
                     {menuList.map((menu, index) => (
                         <li key={index}>

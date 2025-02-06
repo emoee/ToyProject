@@ -4,7 +4,7 @@ import "../styles/navbar.css";
 
 export default function NavBar(){
     return (
-        <div className="navbar">
+        <div className="contents">
             <NavMenu />
             <SearchSection />
         </div>
