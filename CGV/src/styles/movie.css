@@ -1,0 +1,12 @@
+.main-movie-cards {
+    display: flex;
+    position: relative;
+    width: 100%;
+}
+
+.movie-card {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;
+}
